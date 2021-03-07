@@ -22,9 +22,7 @@ article.parse()
 nltk.download('punkt')
 article.nlp()
 
-#Summary
 text = article.summary
-
 print(text)
 
 obj = TextBlob(text)
